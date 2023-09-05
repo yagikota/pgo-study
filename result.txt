@@ -1,0 +1,6 @@
+goos: darwin
+goarch: arm64
+pkg: example.com/markdown/load
+        │  nopgo.txt  │          withpgo.txt          │
+        │   sec/op    │   sec/op     vs base          │
+Load-10   86.00µ ± 3%   84.80µ ± 4%  ~ (p=0.174 n=20)

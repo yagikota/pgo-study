@@ -1,0 +1,25 @@
+goos: darwin
+goarch: arm64
+pkg: example.com/markdown/load
+BenchmarkLoad-10    	   13352	     94061 ns/op
+BenchmarkLoad-10    	   14085	     88305 ns/op
+BenchmarkLoad-10    	   13731	     83396 ns/op
+BenchmarkLoad-10    	   14354	     83863 ns/op
+BenchmarkLoad-10    	   14601	     88312 ns/op
+BenchmarkLoad-10    	   13566	     82614 ns/op
+BenchmarkLoad-10    	   14053	     82528 ns/op
+BenchmarkLoad-10    	   13320	     90834 ns/op
+BenchmarkLoad-10    	   12430	     86093 ns/op
+BenchmarkLoad-10    	   12482	     99321 ns/op
+BenchmarkLoad-10    	   12360	     87382 ns/op
+BenchmarkLoad-10    	   13365	     82946 ns/op
+BenchmarkLoad-10    	   12630	     80756 ns/op
+BenchmarkLoad-10    	   13041	     90539 ns/op
+BenchmarkLoad-10    	   12174	     85735 ns/op
+BenchmarkLoad-10    	   14643	     81908 ns/op
+BenchmarkLoad-10    	   12478	     88078 ns/op
+BenchmarkLoad-10    	   12346	     81309 ns/op
+BenchmarkLoad-10    	   14473	     82718 ns/op
+BenchmarkLoad-10    	   14988	     82995 ns/op
+PASS
+ok  	example.com/markdown/load	40.732s
